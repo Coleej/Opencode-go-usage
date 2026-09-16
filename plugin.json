@@ -4,11 +4,12 @@
   "description": "OpenCode Go 5-hour, weekly, and monthly usage windows plus Zen balance in DankBar",
   "version": "0.1.0",
   "author": "Cody",
+  "license": "MIT",
   "icon": "data_usage",
   "type": "widget",
   "component": "./OpenCodeGoUsage.qml",
   "settings": "./OpenCodeGoUsageSettings.qml",
-  "permissions": ["process", "network", "settings_read", "settings_write"],
+  "permissions": ["settings_read", "settings_write"],
   "requires_dms": ">=1.5.0",
   "dependencies": ["curl", "jq"]
 }

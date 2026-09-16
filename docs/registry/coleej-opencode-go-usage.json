@@ -1,0 +1,23 @@
+{
+  "id": "opencodeGoUsage",
+  "name": "OpenCode Go Usage",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "monitoring",
+  "repo": "https://github.com/Coleej/Opencode-go-usage",
+  "author": "Cody",
+  "description": "Monitor OpenCode Go 5-hour, weekly, and monthly usage windows with reset countdowns, plus optional Zen balance, in your bar.",
+  "dependencies": [
+    "curl",
+    "jq"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/Coleej/Opencode-go-usage/main/assets/screenshot.png",
+  "requires_dms": ">=1.5.0"
+}
